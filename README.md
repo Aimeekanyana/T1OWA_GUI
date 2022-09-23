@@ -15,6 +15,7 @@ The user can set up the fuzzy weights in this tab
 - In this tab, the user will generate a plot to aggregate the results. The plot will show the aggregated fuzzy sets with red dashed line indicating the aggregated result for the Type-1 operator selected
 
 *Please refer to "T1OWA PLOT RESULT EXAMPLES.pdf" for visual examples of what to expect when generating the plots using the GUI 
+
 *Research papers written by Shangming Zhou et al.(2008; 2011; 2021) are also found in this repo. for more knowledge on this topic.
 
 - S.-M. Zhou, F. Chiclana, R. I. John, J. M. Garibaldi, and L. Huo, “Type-1 OWA Operators in Aggregating Multiple Sources of Uncertain Information: Properties and Real World Application in Integrated Diagnosis,” IEEE Transactions on Fuzzy Systems, vol.29, no.8, pp. 2112-2121, 2021 (https://doi.org/10.1109/TFUZZ.2020.2992909)
