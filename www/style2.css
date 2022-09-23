@@ -1,0 +1,304 @@
+body{
+  width: 100vw !important;
+  height: 100vh !important;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+  
+@media(max-width: 2000px){ 
+
+    section .content{
+      width: 100vw !important;
+      height: 100vh !important;
+      margin: 0px !important;
+      padding: 0px !important;
+    }
+    
+    .content-wrapper, .right-side {
+      background-color: white;
+    }
+    
+    .navbar-default{
+      background: #006900 !important;
+      border: 0px !important;
+      padding-bottom: 0px !important;
+    }
+    
+    .content{
+      margin: 0px !important;
+      padding: 0px !important;
+    }
+    
+    div .container-fluid{
+      padding: 0px !important;
+      margin: 0px !important;
+    }
+     
+    nav{
+      position: fixed !important;
+    }
+    
+    .wrapper{
+      min-height: 100vh !important;
+      background: white !important;
+    }
+     
+    nav .container-fluid{
+      width: 100vw !important;
+      justify-content: space-around !important;
+      padding: 0vh 0vw !important;
+    }
+     
+    nav .container-fluid:first-child{
+      width: 100vw !important;
+    }
+    
+    nav .container-fluid .navbar-header{
+      width: 30% !important;
+      padding-left: 2% !important;
+    }
+    
+    nav .container-fluid .navbar-nav{
+      width: 70% !important;
+      display: flex !important;
+      justify-content: right !important;
+      padding-right: 0% !important;
+    }
+    
+    nav .container-fluid li{
+      width: 300px !important;
+      padding-top: 22px !important;
+      padding-bottom: 13px !important;
+      border-bottom: 5px solid transparent !important;
+      text-align: center !important;
+      margin-bottom: 0.5px !important;
+    }
+    
+    nav .container-fluid a{
+      padding: 0vh !important;
+      background: transparent !important;
+      border-bottom: 0vh solid white !important;
+      height: 100% !important;
+      width: 100% !important;
+    }
+    
+    nav .container-fluid li{
+      width: 300px !important;
+      padding-top: 25px !important;
+      padding-bottom: 16px !important;
+      border-bottom: 5px solid transparent !important;
+      text-align: center !important;
+    }
+    
+    nav .container-fluid li:hover{
+      color: white !important;
+      background-color: #252d1d !important;
+      margin: 0px !important;
+      border-bottom: 5px solid #F8FCF4 !important;
+    }
+    
+    .navbar-default .navbar-nav a{
+      color: white !important;
+    }
+    
+    .navbar-default .navbar-nav .active {
+      background-color: #252d1d !important;
+      margin: 0px !important;
+      border-bottom: 7px solid #80cd81 !important;
+    }
+    
+    .navbar-default .navbar-nav .active a{
+      color: #80cd81 !important;
+    }
+    
+    .navbar-default .navbar-nav .active:hover {
+      opacity: 0.95 !important;
+    }
+    
+    .navbar-default .navbar-brand {
+      font-family: Lato, "Helvetica Neue", Arial, Helvetica !important;
+      font-size: 24px !important;
+      font-weight: bold !important;
+      color: white !important;
+      padding-top: 3vh !important;
+      padding-bottom: 3vh !important;
+    }
+    
+    div .container-fluid div .container-fluid{
+      padding: 0px !important;
+      padding-top: 25px !important;
+      padding-bottom: 25px !important;
+      margin: 0px !important;
+    }
+    
+    .container-fluid li{
+      padding-left: 20px !important;
+      padding-right: 20px !important;
+      font-size: 17px !important;
+      font-weight: bold;
+      font-family: Times New Roman !important;
+    }
+    
+    
+    .mainDiv{
+      width: 100vw;
+      min-height: 100vh;
+      display: flex;
+      justify-content: space-around;
+    }
+    
+    .subDiv1{
+      width: 30%;
+      height: 100%;
+      margin-top: 12vh;
+      padding-bottom: 5vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .subDiv2{
+      width: 70%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      margin-top: 14vh;
+    }
+    
+    .btnLm, .btnLm:hover, .btnLm:focus, .btnLm:active{
+      background: #252d1d;
+      color: white;
+      padding-top: 9px;
+      padding-bottom: 9px;
+      font-size: 15.5px;
+      width: 300px;
+      margin-top: 20px;
+      border: 1px solid transparent;
+    }
+    
+    .btnLm:focus{
+      background: #252d1d;
+    }
+    
+    .btnLm:hover{
+      opacity: 0.9;
+    }
+}
+
+
+
+@media(max-width: 1170px){ 
+  
+    nav .container-fluid{
+      width: 100vw !important;
+      justify-content: space-around !important;
+      padding: 0vh 0vw !important;
+    }
+    
+    nav .container-fluid:first-child{
+      width: 100vw !important;
+    }
+    
+    nav .container-fluid .navbar-header{
+      width: 100vw !important;
+      padding-left: 0% !important;
+      width: 100vw !important;
+      display: flex;
+      justify-content: center;
+    }
+    
+    nav .container-fluid .navbar-nav{
+      width: 100vw !important;
+      padding-right: 0% !important;
+    }
+    
+    nav .container-fluid li{
+      width: 500px !important;
+      padding-top: 22px !important;
+      padding-bottom: 13px !important;
+      border-bottom: 5px solid transparent !important;
+      text-align: center !important;
+      margin-bottom: 0px !important;
+    }
+  
+    .navbar-default{
+      border: 0px !important;
+      padding-bottom: 0px !important;
+    }
+  
+    .subDiv1{
+      margin-top: 18vh;
+    }
+    
+    .subDiv2{
+      margin-top: 18vh;
+    }
+    
+    .btnLm, .btnLm:hover, .btnLm:focus, .btnLm:active{
+      background: #252d1d;
+      color: white;
+      padding-top: 9px;
+      padding-bottom: 9px;
+      font-size: 15.5px;
+      width: 300px;
+      margin-top: 20px;
+      border: 1px solid transparent;
+    }
+    
+    .subDiv1{
+      width: 39%;
+    }
+    
+}
+
+
+@media(max-width: 810px){ 
+    nav .container-fluid ul{
+      display: flex !important;
+      flex-direction: column !important;
+      padding-top: 2vh !important;
+    }
+    
+    nav .container-fluid li{
+      width: 100vw !important;
+    }
+    
+    .mainDiv{
+      flex-direction: column;
+    }
+    
+    .subDiv1{
+      width: 100%;
+      margin-top: 40vh;
+    }
+    
+    .subDiv2{
+      width: 87%;
+      margin-top: 2vh;
+      margin-bottom: 9vh;
+    }
+    
+    
+    .btnLm, .btnLm:hover, .btnLm:focus, .btnLm:active{
+      background: #252d1d;
+      color: white;
+      padding-top: 9px;
+      padding-bottom: 9px;
+      font-size: 15.5px;
+      width: 300px;
+      margin-top: 20px;
+      border: 1px solid transparent;
+    }
+}
+
+
+@media(max-width: 500px){
+}
+  
+  
+  
+  
